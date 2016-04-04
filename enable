@@ -1,0 +1,2 @@
+export PATH="$(dirname $(readlink -f $BASH_SOURCE))/bin:$PATH"
+eval "$(rbenv init -)"
